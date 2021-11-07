@@ -1,0 +1,10 @@
+body {
+    margin: 0.5rem;
+    background: yellow;
+}
+input[type=text] {
+    width: 100%;
+}
+input[type=checkbox] {
+    margin: 0 10px;
+}
