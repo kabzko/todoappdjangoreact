@@ -5,5 +5,5 @@ files:
     destination: /home/ubuntu/todolist
 hooks:
     BeforeInstall:
-        - location: scripts/beforeInstall.sh
+      - location: scripts/beforeInstall.sh
         
