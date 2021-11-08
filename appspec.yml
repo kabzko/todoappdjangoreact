@@ -3,4 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/todolist
-file_exists_behavior: OVERWRITE
+hooks:
+    BeforeInstall:
+        - location: scripts/beforeInstall.sh
+    AfterInstall:
+        - location: scripts/afterInstall.sh
