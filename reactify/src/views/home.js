@@ -77,7 +77,7 @@ function Home() {
 
     return (
         <div className="container border bg-light shadow-lg">
-            <h3>My Tasks</h3>
+            <h3>My Task</h3>
             <form onSubmit={AddTask}>
                 <input type="text" value={title} onChange={(e) => {setTitle(e.target.value)}}/>
                 <div className="text-end">
